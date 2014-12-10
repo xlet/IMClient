@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DuiLib::CMenuBuilderCallback" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UIMenu.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CFriendsUI" Collapsed="true">
+    <Position X="28.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EYIAAAAAgAEABAEIAAACBAAAAAAQBAgAKAQgAgFIBAA=</HashCode>
+      <FileName>UIFriends.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CMenuUI" Collapsed="true">
+    <Position X="28.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAASAAAEAAAAAEBAAACABAAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>UIMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CMenuElementUI" Collapsed="true">
+    <Position X="26.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEFAAAAAAACACAQAAAAAAAEAIYBAAAA=</HashCode>
+      <FileName>UIMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CMenuWnd" Collapsed="true">
+    <Position X="2.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABAACAIgAIAAAAAAAAACBAAAAASAACCAAABAAA=</HashCode>
+      <FileName>UIMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CStatusMenuElement" Collapsed="true">
+    <Position X="28.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAQQAACAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>UIStatusMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CUIStatusMenu" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAIAAIAAAAAgAAAADAAAEBCAAIigAAAACA=</HashCode>
+      <FileName>UIStatusMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CStatusMenuBuilderCallBack" Collapsed="true">
+    <Position X="26.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UIStatusMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CFaceCtrl" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEAKpQAEAAhAAAEgBJGGASAOAAA0CAIQBURBI=</HashCode>
+      <FileName>FaceCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::Node" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgIAAAggAAAZAAACAACAAAAEACAABAAAQAAEAAAA=</HashCode>
+      <FileName>UIListCommonDefine.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCaptionWnd" Collapsed="true">
+    <Position X="11.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAABCAAMAAAAAAAIAAAIgAwAQAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CaptionWnd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQABAEAMAKAAAAIAECAAAJRgwQkBABAAACAAQQAA=</HashCode>
+      <FileName>MainFrame.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputViewEvent" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAgAAACAAAAAyEAgAEAAAAAAAAAAJAI=</HashCode>
+      <FileName>UIChatDlg.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShowViewEvent" Collapsed="true">
+    <Position X="21.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAgAAAAAAAAA2EAgAAAAAAAAAAAAJAI=</HashCode>
+      <FileName>UIChatDlg.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUIChatDlg" Collapsed="true">
+    <Position X="14.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAaBSBQBgbMEGKQAAAABEBJDBA4gAhCCCJCiAQWYEA=</HashCode>
+      <FileName>UIChatDlg.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUIEnterpriseWnd" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAABCBAIAEAIAAAAEAEAABBAggEBAAAAACAAERAA=</HashCode>
+      <FileName>UIEnterpriseWnd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUILoginDlg" Collapsed="true">
+    <Position X="10.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQABBAAAIAAAAAAAAAAAAABBAwABBiAAAACAAQIAA=</HashCode>
+      <FileName>UILoginDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUISysSetDlg" Collapsed="true">
+    <Position X="12.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAAAAAAAAIAAAAAAAAABFAgAABAAAAAAAAAAAA=</HashCode>
+      <FileName>UISysSetDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFaceInfo" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAASAgAAAAgAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>FaceList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFaceList" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAABAAABAAAAQAAAAAQAIAAAACgMAAUQgA=</HashCode>
+      <FileName>FaceList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGifImage" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMwQBEAAAAQAgAACBAACEhAABBAAAAAAgAABEAEEAA=</HashCode>
+      <FileName>GifImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUIFaceSelDlg" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAABAAAIAFAogAIAkAAAABDAgIABAgIAAAAAAAFA=</HashCode>
+      <FileName>UIFaceSelDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDBWriterThread" Collapsed="true">
+    <Position X="5.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAQAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>DBWriterThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeartBeatThread" Collapsed="true">
+    <Position X="7.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAEI=</HashCode>
+      <FileName>HeartBeatThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIMSocket" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AmDAAABAIKAAABQQEFAABAKAIAQAMdIoEQQEoBCQAQQ=</HashCode>
+      <FileName>IMSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSqlite" Collapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAgAAAAAAAAAAAAAAAQAAAIAAIAAAAAgAAAQQ=</HashCode>
+      <FileName>Sqlite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CThread" Collapsed="true">
+    <Position X="6.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABFAACAAAAAAAAEBAAAAAAAQCAAABRAABAAAAAEAAAI=</HashCode>
+      <FileName>Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultValueArrayAllocator" Collapsed="true">
+    <Position X="5.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAIAAQAAACBAAAgAAAAAAQAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json_internalarray.inl</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultValueMapAllocator" Collapsed="true">
+    <Position X="8.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwAAQAAAgAAAAAAAAAAAAEAAABAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json_internalmap.inl</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConnectRequest" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAACAAAAAAAEBAAAAQAAAAAAAA=</HashCode>
+      <FileName>ConnectRequest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGlobalData" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAgAAAAEAAAAAAABQAFAAAAAAAAAAiAAAAAAQ=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeartBeatRequest" Collapsed="true">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAAAAAAAAABAAAAAAAAAAAAAwAAAAAAAAEAAA=</HashCode>
+      <FileName>HeartBeatRequest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeartBeatResponse" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>HeartBeatResponse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="linkmaninfo" Collapsed="true">
+    <Position X="15.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAIBAgACAAAIAAAAIAAACAAIAAgAAAQwA=</HashCode>
+      <FileName>linkmaninfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRequest" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABABAAACAAAAAAAgAAAAABAAAAAAAA=</HashCode>
+      <FileName>LoginRequest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogoutRequest" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAABAAACAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LogoutRequest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseMsgInfo" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAggAQACAAAAABAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>MsgData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMsgJson" Collapsed="true">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAgABAAAABAAAAAAAAAAAAAgAAAACAAAAAAA=</HashCode>
+      <FileName>MsgData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMsgOfDelay" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAggAAAAAAAAAAAAAAABAAAAEAAAAAAAAAAAAQ=</HashCode>
+      <FileName>MsgOfDelay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NormalMsg" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAABQAAAAQAAAAABAAhAAAAAAAAAAA=</HashCode>
+      <FileName>NormalMsg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COfflineMsgs" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECgAAAAAAAAAQAAACAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OfflineMsgs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfileRequest" Collapsed="true">
+    <Position X="14.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABQAAAAAAAAAAAAgAAAAgAAAAQBA=</HashCode>
+      <FileName>ProfileRequest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRecentLinkmen" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAACAAAAAAAAgBCAAAAAAA=</HashCode>
+      <FileName>RecentContacts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUser" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAIAAAAACAA=</HashCode>
+      <FileName>User.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MsgOfArrival" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAghAAAAAAAAAAAAAAABAAAAAACAAAAAAAAAAQ=</HashCode>
+      <FileName>MsgOfArrival.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NormaMsgCollection" Collapsed="true">
+    <Position X="25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NormaMsgCollection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfileResponse" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ProfileResponse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFontInfo" Collapsed="true">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAggAAAAqAAAAAAAAAQAAAAAAAAIBAAAAAAA=</HashCode>
+      <FileName>FontInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObserverImplBase&lt;ReturnT, ParamT&gt;" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAACAAAAAAAAAAAAAAAAAAAJAAAAAAABAAAA=</HashCode>
+      <FileName>observer_impl_base.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReceiverImplBase&lt;ReturnT, ParamT&gt;" Collapsed="true">
+    <Position X="2.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAA=</HashCode>
+      <FileName>observer_impl_base.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObserverImpl&lt;ReturnT, ParamT&gt;" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAACAAAAAAAAAAEAAAAAAAAJAAIAAAARAAAA=</HashCode>
+      <FileName>observer_impl_base.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReceiverImpl&lt;ReturnT, ParamT&gt;" Collapsed="true">
+    <Position X="2.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAhAAAAAAAAAAAAAAAAAgAAQAAAAAABAAAE=</HashCode>
+      <FileName>observer_impl_base.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CXmlNode" Collapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAIACAAAAAIYAAAAAAAAAIIAAAYAAAAAARAgAQA=</HashCode>
+      <FileName>XmlDocument.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CXmlNodeList" Collapsed="true">
+    <Position X="26.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAEIABAAAAAAAAIAAAQAAAAAAABEAAAA=</HashCode>
+      <FileName>XmlDocument.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CXmlDocument" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAACAAgAAAAAAAAAAAAQAIAAAAAAAAAABAQAAA=</HashCode>
+      <FileName>XmlDocument.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZYM::CPath" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAEAQCgEAACAAAAQIAAAQABIAAAIAAEAQA=</HashCode>
+      <FileName>Path.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::DefaultValueAllocator" Collapsed="true">
+    <Position X="11.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAEAAAAAAABAAAAAAGAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json_value.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::Features" Collapsed="true">
+    <Position X="28.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAABAAAAMACAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\features.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::FastWriter" Collapsed="true">
+    <Position X="2.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAACAAAAAABAAAAAAAAAAAAAAIAAAAAAQAAEAAAAAE=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\writer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::StyledWriter" Collapsed="true">
+    <Position X="4.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIBAAEIAQICAAAABAAAAAAAAAIBAAAAQQAQBAAIgBE=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\writer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::Reader" Collapsed="true">
+    <Position X="19.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAEIAAIAABADBEBAIAAAAASAgIBzUCCADEEYEAgIIo=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\reader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::StaticString" Collapsed="true">
+    <Position X="23.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAQAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::Path" Collapsed="true">
+    <Position X="26.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAACAAIAgAAAAAAAABEgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::PathArgument" Collapsed="true">
+    <Position X="28.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAgAAACAAAAAAAAAABAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::Value" Collapsed="true">
+    <Position X="26.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAoGAgSgCAECCACAIQoSYkSAAWBEnAAAQUhSAAoQBA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::ValueIteratorBase" Collapsed="true">
+    <Position X="8.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACAAAAAhAAAAAAAkASAgQAAAAQIAAEAgAAABAEA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::ValueIterator" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAEAAACAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::ValueConstIterator" Collapsed="true">
+    <Position X="9.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQCEAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::ValueAllocator" Collapsed="true">
+    <Position X="11.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAgBAAAAAAGAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::ValueMapAllocator" Collapsed="true">
+    <Position X="8.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwAAQAAAgAAAAAAAAAAAAEACABAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::ValueInternalLink" Collapsed="true">
+    <Position X="18" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAoAAAAAAAAAAAABEAgAAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::ValueInternalArray" Collapsed="true">
+    <Position X="28.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAACACCAIAAAgJAAACBgIEBAAAAAiwAgAABAQAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::ValueInternalMap" Collapsed="true">
+    <Position X="19.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAAAAACAQBAHBICEACAgAGBAADIAD4AgAAAAQAg=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::ValueArrayAllocator" Collapsed="true">
+    <Position X="5.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAIAAQAAAABAAAgAAAAAAQAAgAAAAAAAAAAAAAg=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::Writer">
+    <Position X="3.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\writer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::StyledStreamWriter" Collapsed="true">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAAEIAQIOAAAABAAAAAAACAIBAAAAAQAQBAAIgBE=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\writer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Json::BatchAllocator&lt;AllocatedType, objectPerAllocation&gt;" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAZEIAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAkAAAAAgA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json_batchallocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DuiLib::FriendListItemInfo" Collapsed="true">
+    <Position X="25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAAAEAAAAAIAAAAAACAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>UIFriends.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DuiLib::ContextMenuParam" Collapsed="true">
+    <Position X="18" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UIMenu.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DuiLib::NodeData" Collapsed="true">
+    <Position X="26.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAJAAAAAAAAAAAAAAEgACCAAAAAAAAAAAA=</HashCode>
+      <FileName>UIListCommonDefine.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MsgHeaderFontInfo" Collapsed="true">
+    <Position X="3.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACEAAAAAAAICAAQAAAAAAAAAAAAACAAAAAIAAAA=</HashCode>
+      <FileName>UIChatDlg.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MSGBUF_Tag" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>DBWriterThread.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DummyArrayAllocatorInitializer" Collapsed="true">
+    <Position X="19.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json_internalarray.inl</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DummyMapAllocatorInitializer" Collapsed="true">
+    <Position X="21.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json_internalmap.inl</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Json::DummyValueAllocatorInitializer" Collapsed="true">
+    <Position X="23.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json_value.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="PMSGHEADERFONTINFO" Collapsed="true">
+    <Position X="3.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UIChatDlg.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MAP_TSTRING_FRIENDLISTITEMINFO" Collapsed="true">
+    <Position X="25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UIEnterpriseWnd.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DuiLib::ContextMenuObserver" Collapsed="true">
+    <Position X="15" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UIMenu.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DuiLib::ContextMenuReceiver" Collapsed="true">
+    <Position X="2.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UIMenu.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MsgBuf" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBWriterThread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PMSGBUF" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBWriterThread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Json::Int" Collapsed="true">
+    <Position X="18" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\forwards.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Json::UInt" Collapsed="true">
+    <Position X="28.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\forwards.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MAP_TSTRING_HWND" Collapsed="true">
+    <Position X="26.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PLINKMANINFO" Collapsed="true">
+    <Position X="15.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>linkmaninfo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MAP_STRING_PLINKMANINFO" Collapsed="true">
+    <Position X="19.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>linkmaninfo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MAP_STRING_PNORMALMSG" Collapsed="true">
+    <Position X="21.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MsgOfDelay.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MAP_STRING_PNORMALMSGCOLLECTION" Collapsed="true">
+    <Position X="23.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NormaMsgCollection.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="DuiLib::MenuAlignment" Collapsed="true">
+    <Position X="25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAACABAAQAAAAAAAAA=</HashCode>
+      <FileName>UIMenu.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="E_PICSUFFIX" Collapsed="true">
+    <Position X="23.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACAAAAAAAAABBAAAAAIAgAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>UIChatDlg.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="E_FILEFORMAT" Collapsed="true">
+    <Position X="19.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>UIChatDlg.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="E_MSG_TYPE" Collapsed="true">
+    <Position X="21.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UIChatDlg.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Json::ValueType" Collapsed="true">
+    <Position X="26.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAgADAAAUAAAAAAAAAAIBAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Json::CommentPlacement" Collapsed="true">
+    <Position X="18" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAABACAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>D:\imClient\ImClient\common\JsonCpp\json\value.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

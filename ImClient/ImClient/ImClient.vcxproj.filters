@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{2e49eb26-74f0-437f-b478-08279691fdab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\FaceDlg">
+      <UniqueIdentifier>{9842c84a-9426-43de-aba4-e626f4e253aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIData">
+      <UniqueIdentifier>{ae765591-695a-4f1f-8f78-6266b96788d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMDATA">
+      <UniqueIdentifier>{4c40306f-133b-4e1a-9eed-5313a799a669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{0e48f0e8-f9b8-499b-98b8-0871ad670dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="客服">
+      <UniqueIdentifier>{a43df050-c673-4217-870c-97908d4c2b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Menu">
+      <UniqueIdentifier>{623ab505-217d-47c1-b2d2-bb9432af31e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\List">
+      <UniqueIdentifier>{2aada257-2b71-4e60-999f-ce15b0c9c0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\RichEditUtil">
+      <UniqueIdentifier>{1681bc06-e37b-4e07-b2fb-9e93baea5e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Thread">
+      <UniqueIdentifier>{8e6272de-e236-4f52-bdc4-f399055b824b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ImClient.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="xml1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Message.txt">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="OAMsgType.txt">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="update.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UILoginDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptionWnd.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UISysSetDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIFaceSelDlg.h">
+      <Filter>UI\FaceDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceCtrl.h">
+      <Filter>UI\FaceDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceList.h">
+      <Filter>UI\FaceDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>UI\FaceDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>UI\FaceDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="GifImage.h">
+      <Filter>UI\FaceDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="IMSocket.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqlite.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>CMDATA</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>CMDATA</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgData.h">
+      <Filter>CMDATA</Filter>
+    </ClInclude>
+    <ClInclude Include="OfflineMsgs.h">
+      <Filter>CMDATA</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginRequest.h">
+      <Filter>CMDATA</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectRequest.h">
+      <Filter>CMDATA</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoutRequest.h">
+      <Filter>CMDATA</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartBeatRequest.h">
+      <Filter>CMDATA</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartBeatResponse.h">
+      <Filter>CMDATA</Filter>
+    </ClInclude>
+    <ClInclude Include="Update.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginResponse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectResponse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WOAMember.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMember.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WCNMember.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TempMember.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemberFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NormaMsgCollection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileRequest.h">
+      <Filter>客服</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileResponse.h">
+      <Filter>客服</Filter>
+    </ClInclude>
+    <ClInclude Include="linkmaninfo.h">
+      <Filter>客服</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgOfArrival.h">
+      <Filter>客服</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgOfDelay.h">
+      <Filter>客服</Filter>
+    </ClInclude>
+    <ClInclude Include="UIFriendInfoDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIStatusMenu.h">
+      <Filter>UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMenu.h">
+      <Filter>UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UIFriends.hpp">
+      <Filter>UI\List</Filter>
+    </ClInclude>
+    <ClInclude Include="UIListCommonDefine.hpp">
+      <Filter>UI\List</Filter>
+    </ClInclude>
+    <ClInclude Include="RichEditUtil.h">
+      <Filter>UI\RichEditUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="FontInfo.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="observer_impl_base.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlDocument.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="RecentContacts.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIChatDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DBWriterThread.h">
+      <Filter>Logic\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendUpdateThread.h">
+      <Filter>Logic\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartBeatThread.h">
+      <Filter>Logic\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceDownloadThread.h">
+      <Filter>Logic\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Logic\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendsInfoLoadThread.h">
+      <Filter>Logic\Thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIChatDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UILoginDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UISysSetDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptionWnd.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIFaceSelDlg.cpp">
+      <Filter>UI\FaceDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceCtrl.cpp">
+      <Filter>UI\FaceDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceList.cpp">
+      <Filter>UI\FaceDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>UI\FaceDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>UI\FaceDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GifImage.cpp">
+      <Filter>UI\FaceDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="IMSocket.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="ImClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>CMDATA</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>CMDATA</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgData.cpp">
+      <Filter>CMDATA</Filter>
+    </ClCompile>
+    <ClCompile Include="OfflineMsgs.cpp">
+      <Filter>CMDATA</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginRequest.cpp">
+      <Filter>CMDATA</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectRequest.cpp">
+      <Filter>CMDATA</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoutRequest.cpp">
+      <Filter>CMDATA</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartBeatRequest.cpp">
+      <Filter>CMDATA</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartBeatResponse.cpp">
+      <Filter>CMDATA</Filter>
+    </ClCompile>
+    <ClCompile Include="Update.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginResponse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectResponse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WOAMember.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMember.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WCNMember.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TempMember.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemberFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NormaMsgCollection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMsg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqlite.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileResponse.cpp">
+      <Filter>客服</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileRequest.cpp">
+      <Filter>客服</Filter>
+    </ClCompile>
+    <ClCompile Include="linkmaninfo.cpp">
+      <Filter>客服</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgOfArrival.cpp">
+      <Filter>客服</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgOfDelay.cpp">
+      <Filter>客服</Filter>
+    </ClCompile>
+    <ClCompile Include="UIFriendInfoDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIStatusMenu.cpp">
+      <Filter>UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMenu.cpp">
+      <Filter>UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="UIListCommonDefine.cpp">
+      <Filter>UI\List</Filter>
+    </ClCompile>
+    <ClCompile Include="UIFriends.cpp">
+      <Filter>UI\List</Filter>
+    </ClCompile>
+    <ClCompile Include="RichEditUtil.cpp">
+      <Filter>UI\RichEditUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="FontInfo.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlDocument.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="RecentContacts.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="DBWriterThread.cpp">
+      <Filter>Logic\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendUpdateThread.cpp">
+      <Filter>Logic\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartBeatThread.cpp">
+      <Filter>Logic\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceDownloadThread.cpp">
+      <Filter>Logic\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Logic\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendsInfoLoadThread.cpp">
+      <Filter>Logic\Thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImClient.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

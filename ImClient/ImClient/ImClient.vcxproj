@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AE4EB559-E6F5-4CC4-BB88-1578D64E37B3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ImClient</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>../../lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>../common/JsonCpp;../../DuiLib;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)$(Configuration)\ImClient</OutDir>
+    <TargetName>liuliu</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\imClient\DuiLib;../common/JsonCpp;$(IncludePath)</IncludePath>
+    <LibraryPath>../../lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\Release\ImClient</OutDir>
+    <TargetName>liuliu</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ImClient.ico" />
+    <None Include="Message.txt" />
+    <None Include="OAMsgType.txt" />
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico" />
+    <None Include="update.ico" />
+    <None Include="xml1.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseMember.h" />
+    <ClInclude Include="CaptionWnd.h" />
+    <ClInclude Include="ConnectRequest.h" />
+    <ClInclude Include="ConnectResponse.h" />
+    <ClInclude Include="DBWriterThread.h" />
+    <ClInclude Include="FaceCtrl.h" />
+    <ClInclude Include="FaceList.h" />
+    <ClInclude Include="FontInfo.h" />
+    <ClInclude Include="FriendGroup.h" />
+    <ClInclude Include="FriendsInfoLoadThread.h" />
+    <ClInclude Include="FriendUpdateThread.h" />
+    <ClInclude Include="GifImage.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="PictureProcess.h" />
+    <ClInclude Include="HeartBeatRequest.h" />
+    <ClInclude Include="HeartBeatResponse.h" />
+    <ClInclude Include="HeartBeatThread.h" />
+    <ClInclude Include="ImClient.h" />
+    <ClInclude Include="IMSocket.h" />
+    <ClInclude Include="linkmaninfo.h" />
+    <ClInclude Include="LoginRequest.h" />
+    <ClInclude Include="LoginResponse.h" />
+    <ClInclude Include="LogoutRequest.h" />
+    <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="MemberFactory.h" />
+    <ClInclude Include="MsgData.h" />
+    <ClInclude Include="MsgOfArrival.h" />
+    <ClInclude Include="MsgOfDelay.h" />
+    <ClInclude Include="NormalMsg.h" />
+    <ClInclude Include="NormaMsgCollection.h" />
+    <ClInclude Include="observer_impl_base.hpp" />
+    <ClInclude Include="OfflineMsgs.h" />
+    <ClInclude Include="Path.h" />
+    <ClInclude Include="ProfileRequest.h" />
+    <ClInclude Include="ProfileResponse.h" />
+    <ClInclude Include="RecentContacts.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RichEditUtil.h" />
+    <ClInclude Include="SourceDownloadThread.h" />
+    <ClInclude Include="Sqlite.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TempMember.h" />
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="UIChatDlg.h" />
+    <ClInclude Include="UIFaceSelDlg.h" />
+    <ClInclude Include="UIFriendInfoDlg.h" />
+    <ClInclude Include="UIFriends.hpp" />
+    <ClInclude Include="UIListCommonDefine.hpp" />
+    <ClInclude Include="UILoginDlg.h" />
+    <ClInclude Include="UIMenu.h" />
+    <ClInclude Include="UIStatusMenu.h" />
+    <ClInclude Include="UISysSetDlg.h" />
+    <ClInclude Include="Update.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="WCNMember.h" />
+    <ClInclude Include="WOAMember.h" />
+    <ClInclude Include="XmlDocument.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseMember.cpp" />
+    <ClCompile Include="CaptionWnd.cpp" />
+    <ClCompile Include="ConnectRequest.cpp" />
+    <ClCompile Include="ConnectResponse.cpp" />
+    <ClCompile Include="DBWriterThread.cpp" />
+    <ClCompile Include="FaceCtrl.cpp" />
+    <ClCompile Include="FaceList.cpp" />
+    <ClCompile Include="FontInfo.cpp" />
+    <ClCompile Include="FriendGroup.cpp" />
+    <ClCompile Include="FriendsInfoLoadThread.cpp" />
+    <ClCompile Include="FriendUpdateThread.cpp" />
+    <ClCompile Include="GifImage.cpp" />
+    <ClCompile Include="Global.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PictureProcess.cpp" />
+    <ClCompile Include="HeartBeatRequest.cpp" />
+    <ClCompile Include="HeartBeatResponse.cpp" />
+    <ClCompile Include="HeartBeatThread.cpp" />
+    <ClCompile Include="ImClient.cpp" />
+    <ClCompile Include="IMSocket.cpp" />
+    <ClCompile Include="linkmaninfo.cpp" />
+    <ClCompile Include="LoginRequest.cpp" />
+    <ClCompile Include="LoginResponse.cpp" />
+    <ClCompile Include="LogoutRequest.cpp" />
+    <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="MemberFactory.cpp" />
+    <ClCompile Include="MsgData.cpp" />
+    <ClCompile Include="MsgOfArrival.cpp" />
+    <ClCompile Include="MsgOfDelay.cpp" />
+    <ClCompile Include="NormalMsg.cpp" />
+    <ClCompile Include="NormaMsgCollection.cpp" />
+    <ClCompile Include="OfflineMsgs.cpp" />
+    <ClCompile Include="Path.cpp" />
+    <ClCompile Include="ProfileRequest.cpp" />
+    <ClCompile Include="ProfileResponse.cpp" />
+    <ClCompile Include="RecentContacts.cpp" />
+    <ClCompile Include="RichEditUtil.cpp" />
+    <ClCompile Include="SourceDownloadThread.cpp" />
+    <ClCompile Include="Sqlite.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TempMember.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="UIChatDlg.cpp" />
+    <ClCompile Include="UIFaceSelDlg.cpp" />
+    <ClCompile Include="UIFriendInfoDlg.cpp" />
+    <ClCompile Include="UIFriends.cpp" />
+    <ClCompile Include="UIListCommonDefine.cpp" />
+    <ClCompile Include="UILoginDlg.cpp" />
+    <ClCompile Include="UIMenu.cpp" />
+    <ClCompile Include="UIStatusMenu.cpp" />
+    <ClCompile Include="UISysSetDlg.cpp" />
+    <ClCompile Include="Update.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="WCNMember.cpp" />
+    <ClCompile Include="WOAMember.cpp" />
+    <ClCompile Include="XmlDocument.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImClient.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

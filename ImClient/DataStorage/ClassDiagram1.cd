@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IUserDb" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAkAAgAAAAAAQAAAAAgAAAAAABAQCA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMsgDb" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAQAAAAAAAAAAYAAAAgECAACAAAAAAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDBInit" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAgAAAAAABAAEAAAAEIAAAAAAAACAQAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IPath" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAABAAAAAAAEAAAEAgAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserDb" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAQAAAAEAAAAAAAAAQAQAAAgAAACAABAQCA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MsgDb" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="IDBInit" ManuallyRouted="true">
+      <Path>
+        <Point X="4.5" Y="1.059" />
+        <Point X="4.5" Y="1.178" />
+        <Point X="3.904" Y="1.178" />
+        <Point X="3.904" Y="3.948" />
+        <Point X="4" Y="3.948" />
+        <Point X="4" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAQAAAAAAAAAAQAAAAgECAACAECAAAAAQA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="tag_userinfo" Collapsed="true">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAAwA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tag_userconfig" Collapsed="true">
+    <Position X="11.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBCBAAAAAAAAEAAAIAAAAIIAAAAAAAAABAAgAGAAgA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tag_friendsinfo" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tag_msginfo" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECACAAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="DB_FLAG" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="userinfo" Collapsed="true">
+    <Position X="4.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PUSERINFO" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="userconfig" Collapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PUSERCFG" Collapsed="true">
+    <Position X="11.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PFRIEND" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="friendsinfo" Collapsed="true">
+    <Position X="3.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="msginfo" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PMSGINFO" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

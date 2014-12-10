@@ -1,0 +1,183 @@
+
+login Request
+{
+  "@type" : "Login",
+  "messageType" : "Login",
+  "sendTime" : 1414142294675,
+  "receivedTime" : 0,
+  "loginId" : "woa:w060",
+  "password" : "123456",
+  "clientType" : "WinForm",
+  "productType" : "Oa"
+}
+
+LoginResponse
+{
+  "@type" : "LoginResponse",
+  "messageType" : "LoginResponse",
+  "sendTime" : 1414142296826,
+  "receivedTime" : 1414142296878,
+  "success" : true,
+  "errorCode" : 0,
+  "errorMessage" : null,
+  "token" : "88b04c3c601c4398b5b683b1c4911788",
+  "memberId" : "woa:w060",
+  messageHost: "127.0.1.1"
+  messagePort: "16021"
+  "loggedOtherPlace" : null
+}
+//////////////////////////////
+Connect Request
+ {
+  "@type" : "Connect",
+  "messageType" : "Connect",
+  "sendTime" : 1414142296897,
+  "receivedTime" : 0,
+  "productType" : "Oa",
+  "clientType" : "WinForm",
+  "memberId" : "woa:w060",
+  "token" : "88b04c3c601c4398b5b683b1c4911788"
+}
+
+
+////////////////////////////////////////
+ConnectResponse
+ {
+  "@type" : "ConnectResponse",
+  "messageType" : "ConnectResponse",
+  "sendTime" : 1414142297050,
+  "receivedTime" : 1414142297077,
+  "success" : true,
+  "errorCode" : 0,
+  "errorMessage" : null,
+  "self" : {
+    "@type" : "oaMember",
+    "memberSource" : "OA",
+    "id" : "woa:w060",
+    "nickname" : "林群彬",
+    "picUrl" : "http://10.0.41.115/preview.aspx?id=8d80dedf1b494c9ea3c1e2a296789a59",
+    "signature" : null,
+    "tempMember" : false,
+    "mobile" : "13276967598",
+    "telephone" : "",
+    "address" : "",
+    "email" : "linqunbin@w.cn",
+    "init" : true
+  }
+}
+
+self":{
+		"@type":"oaMember",
+		"memberSource":"OA",
+			"id":"wdemo1:admin",
+			"nickname":"绯荤粺绠＄悊鍛?,
+			"sex":"Female",
+			"picUrl":"http://10.0.41.115/preview.aspx?id=d23d651d7bfa4dcf8e224483ceefa7bc",
+			"signature":null,
+			"tempMember":false,
+			"mobile":"",
+			"telephone":"",
+			"address":"",
+			"email":"oa@w.cn",
+			"init":true,
+			///
+			"post":"绯荤粺绠＄悊鍛?,
+			"department":"鎬荤粡鍔?
+			}
+
+///
+Friend Group 
+{
+    "@type": "FriendGroup",
+    "messageType": "FriendGroup",
+    "sendTime": 1414501181208,
+    "receivedTime": 0,
+    "friendGroup": {
+        "id": "",
+        "name": "产品部",
+        "contacts": [
+            {
+                "@type": "oaMember",
+                "memberSource": "OA",
+                "id": "wdemo1:w010",
+                "nickname": "钟国清",
+                "sex": "Male",
+                "picUrl": "http://10.0.41.115/preview.aspx?id=",
+                "signature": null,
+                "tempMember": false,
+                "mobile": "13799274461\n",
+                "telephone": "2178331",
+                "address": "",
+                "email": "zgq@w.cn",
+                "init": true,
+                "post": "产品部经理",
+                "department": "产品部"
+            }
+        ],
+        "system": true
+    }
+}
+
+{
+    "@type": "Offline",
+    "messageType": "Offline",
+    "sendTime": 1415326812791,
+    "receivedTime": 0,
+    "offlineMessages": [
+        {
+            "@type": "Normal",
+            "messageType": "Normal",
+            "sendTime": 1415326812791,
+            "receivedTime": 0,
+            "from": "wdemo1:w006",
+            "to": "wdemo1:w035",
+            "content": "dasdsadsxdsdsda",
+            "clientType": null
+        },
+        {
+            "@type": "Normal",
+            "messageType": "Normal",
+            "sendTime": 1415326812791,
+            "receivedTime": 0,
+            "from": "wdemo1:w006",
+            "to": "wdemo1:w035",
+            "content": "aa",
+            "clientType": null
+        }
+    ]
+}
+
+Status
+{
+    "@type": "Status",
+    "memberId": "wdemo1:w002",
+    "messageType": "Status",
+    "receivedTime": 0,
+    "sendTime": 1416208968883,
+    "status": 1
+}
+
+RecentContacts
+{
+    "@type": "RecentContacts",
+    "messageType": "RecentContacts",
+    "receivedTime": 0,
+    "recentContacts": [
+        {
+            "contactId": "wdemo1:admin",
+            "lastContent": "001,admin",
+            "lastTime": 1416368673636
+        },
+        {
+            "contactId": "wdemo1:w022",
+            "lastContent": "cscsc",
+            "lastTime": 1416446992102
+        },
+        {
+            "contactId": "wdemo1:w027",
+            "lastContent": "cscscs",
+            "lastTime": 1416446997933
+        }
+    ],
+    "sendTime": 1416447020613
+}

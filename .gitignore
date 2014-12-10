@@ -1,0 +1,7 @@
+/Imclient/JsonCppTest
+/ImClient/Maintest
+/ImClient/Update
+/Imclient/wininetTest
+*.exe
+*.dll
+/Lib
