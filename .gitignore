@@ -6,3 +6,5 @@
 *.dll
 /Lib
 *.sdf
+/ImClient/SetUp1
+/ImClient/Debug/ImClient/IMFilerecv
