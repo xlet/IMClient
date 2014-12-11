@@ -26,8 +26,6 @@ public:
 	{
 		E_OPTION select ;
 		E_OPTION mousevoer;
-
-
 	};
 	CMainFrame::CMainFrame(void);
 
