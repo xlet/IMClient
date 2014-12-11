@@ -7,7 +7,6 @@
 /Lib
 *.sdf
 /ImClient/SetUp1
-/ImClient/Debug/ImClient/IMFilerecv
 /ImClient/Release/ImClient/Release
 /ImClient/ipch
 
