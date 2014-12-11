@@ -5,3 +5,4 @@
 *.exe
 *.dll
 /Lib
+*.sdf
