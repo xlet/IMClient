@@ -155,18 +155,14 @@ void CFriendsUI::OnItemBtnMouseEnter(TEventUI* pEvent)
 		m_pFriendInfoDlg->Create(NULL,_T("ºÃÓÑÐÅÏ¢"), WS_POPUPWINDOW /*| WS_CAPTION */| WS_DLGFRAME | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_EX_APPWINDOW  , WS_EX_TOOLWINDOW );
 	}
 
-	
 	if (IsWindowVisible(m_pFriendInfoDlg->GetHWND()))
 	{
+		m_pManager->KillTimer(m_pFriendInfoDlg->GetOwner(), TM_FRIENDINFODLG);
 		if (m_pFriendInfoDlg->GetItemInfo() == pNode->data().pItemData)
-		{
-			return;
-		}
+			bNeedShow =FALSE;
 		else
-		{	
 			m_pManager->KillTimer(m_pFriendInfoDlg->GetOwner(), TM_FRIENDINFODLG);
-			bNeedShow = TRUE;
-		}
+		bNeedShow = TRUE;
 
 	}
 

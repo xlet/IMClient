@@ -46,7 +46,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>D:\imClient\DuiLib;../common/JsonCpp;$(IncludePath)</IncludePath>
+    <IncludePath>../../DuiLib;../common/JsonCpp;$(IncludePath)</IncludePath>
     <LibraryPath>../../lib;$(LibraryPath)</LibraryPath>
     <OutDir>..\Release\ImClient</OutDir>
     <TargetName>liuliu</TargetName>
